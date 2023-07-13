@@ -171,8 +171,7 @@ template {
 
   --text-color: var(--color-black);
 
-  --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   --font-size-small: 1.2rem;
@@ -319,6 +318,18 @@ a:active {
   clip: rect(1px, 1px, 1px, 1px);
   white-space: nowrap;
 }
+
+/*** 2. LAYOUT ***/
+
+/* Layout
+      ============================= */
+
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Grid
       ============================= */
 
@@ -401,7 +412,7 @@ ul.row {
   padding: var(--header-padding);
   position: relative;
   z-index: 3;
-  background: transparent !important;
+  background: transparent;
 }
 
 .header-logo {
